@@ -1,0 +1,38 @@
+.hero-section {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 2rem;
+    background-color: #fce4ec; /* Light pink background */
+    border-radius: 8px;
+}
+
+.hero-content {
+    max-width: 50%;
+}
+
+.hero-title {
+    font-size: 2.5rem;
+    color: #2e1a47; /* Dark purple color */
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+}
+
+.hero-subtitle {
+    font-size: 1.25rem;
+    color: #2e1a47;
+    margin-bottom: 1rem;
+}
+
+.divider {
+    border: none;
+    border-top: 2px solid #ff6f00; /* Orange divider */
+    width: 50%;
+    margin: 0;
+}
+
+.hero-illustration img {
+    width: 300px;
+    max-width: 100%;
+    border-radius: 8px;
+}
