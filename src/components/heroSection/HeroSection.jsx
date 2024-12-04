@@ -11,7 +11,7 @@ const HeroSection = () => {
             textShadow: "2px 2px 5px rgba(0, 0, 0, 0.7)", // Custom shadow
           }}
         >
-          YOUR ONLINE SHOP
+          Shopping Karooo !!
         </h1>
         <p
           className="text-2xl text-white mb-4 lg:ml-20"

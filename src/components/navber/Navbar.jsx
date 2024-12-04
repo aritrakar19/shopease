@@ -1,5 +1,6 @@
 import { Link } from "react-router-dom";
 import SearchBar from "../searchBar/SearchBar";
+import abc from "../../assets/image/images-removebg-preview (3).png";
 
 const Navbar = () => {
     // navList Data
@@ -28,18 +29,17 @@ const Navbar = () => {
 
     return (
         <nav className="bg-[#2874f0] sticky top-0">
-            {/* main */}
             <div className="lg:flex lg:justify-between items-center py-3 lg:px-3">
                 {/* left */}
                 <div className="left flex items-center py-3 lg:py-0">
                     <Link to={'/'} className="flex items-center">
                         {/* Add the image */}
                         <img 
-                            src="./assets/img.png" 
+                            src={abc} 
                             alt="" 
-                            className="w-10 h-10 mr-2"
+                            className="w-15 h-10 ml-8"
                         />
-                        <h2 className="font-bold text-white text-2xl">E-Bharat</h2>
+                        {/* <h2 className="font-bold text-white text-2xl">Shopease</h2> */}
                     </Link>
                 </div>
 
