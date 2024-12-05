@@ -7,7 +7,7 @@ import ScrollTop from "./components/scrollTop/ScrollTop";
 import Login from "./pages/registration/Login";
 import Signup from "./pages/registration/Signup";
 import CartPage from "./pages/cart/CartPage";
-import Dashboard from "./pages/admin/dashboard/Dashboard";
+// import Dashboard from "./pages/admin/dashboard/Dashboard";
 
 function App() {
   return (
@@ -17,7 +17,7 @@ function App() {
           <ScrollTop />
           <Routes>
             <Route path="/" element={<HomePage />} />
-            <Route path="/dashboard" element={<Dashboard />} />
+            {/* <Route path="/dashboard" element={<Dashboard />} /> */}
             <Route path="/login" element={<Login />} />
             <Route path="/signup" element={<Signup />} />
             <Route path="/nopage" element={<NoPage />} />
